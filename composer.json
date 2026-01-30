@@ -14,8 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ChernegaSergiy\\Nk0262021Parser\\": "src/",
-            "ChernegaSergiy\\Nk0262021Parser\\Dto\\": "src/Dto/"
+            "ChernegaSergiy\\Nk0262021Parser\\": "src/"
         }
     }
 }
