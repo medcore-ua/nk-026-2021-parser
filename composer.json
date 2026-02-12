@@ -1,5 +1,5 @@
 {
-    "name": "chernegasergiy/nk-026-2021-parser",
+    "name": "medcore-ua/nk-026-2021-parser",
     "description": "A PHP library to parse the NK-026-2021 (Classifier of Medical Interventions) from meddata.pp.ua.",
     "type": "library",
     "license": "LicenseRef-CSSM-Unlimited-2.0",
