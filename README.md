@@ -25,7 +25,7 @@ The `parse()` method returns an `InterventionCollection` object which you can it
 
 require 'vendor/autoload.php';
 
-use ChernegaSergiy\Nk0262021Parser\Parser;
+use MedCore\Nk0262021Parser\Parser;
 
 $parser = new Parser();
 
