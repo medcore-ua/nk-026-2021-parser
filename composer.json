@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ChernegaSergiy\\Nk0262021Parser\\": "src/"
+            "MedCore\\Nk0262021Parser\\": "src/"
         }
     }
 }
