@@ -1,6 +1,6 @@
 <?php
 
-namespace ChernegaSergiy\Nk0262021Parser\Dto;
+namespace MedCore\Nk0262021Parser\Dto;
 
 use Countable;
 use IteratorAggregate;
