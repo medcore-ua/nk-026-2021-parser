@@ -1,9 +1,9 @@
 <?php
 
-namespace ChernegaSergiy\Nk0262021Parser;
+namespace MedCore\Nk0262021Parser;
 
-use ChernegaSergiy\Nk0262021Parser\Dto\Intervention;
-use ChernegaSergiy\Nk0262021Parser\Dto\InterventionCollection;
+use MedCore\Nk0262021Parser\Dto\Intervention;
+use MedCore\Nk0262021Parser\Dto\InterventionCollection;
 
 class Parser
 {
