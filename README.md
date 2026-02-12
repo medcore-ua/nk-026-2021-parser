@@ -11,7 +11,7 @@ A PHP library to parse the NK-026-2021 (Classifier of Medical Interventions) fro
 You can install the package via Composer:
 
 ```bash
-composer require chernegasergiy/nk-026-2021-parser
+composer require medcore-ua/nk-026-2021-parser
 ```
 
 ## Usage
