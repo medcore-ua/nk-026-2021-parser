@@ -1,8 +1,8 @@
 # NK-026-2021 Parser
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/chernegasergiy/nk-026-2021-parser.svg?label=Packagist&logo=packagist)](https://packagist.org/packages/chernegasergiy/nk-026-2021-parser)
-[![Total Downloads](https://img.shields.io/packagist/dt/chernegasergiy/nk-026-2021-parser.svg?label=Downloads&logo=packagist)](https://packagist.org/packages/chernegasergiy/nk-026-2021-parser)
-[![License](https://img.shields.io/packagist/l/chernegasergiy/nk-026-2021-parser.svg?label=Licence&logo=open-source-initiative)](https://packagist.org/packages/chernegasergiy/nk-026-2021-parser)
+[![Latest Stable Version](https://img.shields.io/packagist/v/medcore-ua/nk-026-2021-parser.svg?label=Packagist&logo=packagist)](https://packagist.org/packages/medcore-ua/nk-026-2021-parser)
+[![Total Downloads](https://img.shields.io/packagist/dt/medcore-ua/nk-026-2021-parser.svg?label=Downloads&logo=packagist)](https://packagist.org/packages/medcore-ua/nk-026-2021-parser)
+[![License](https://img.shields.io/packagist/l/medcore-ua/nk-026-2021-parser.svg?label=Licence&logo=open-source-initiative)](https://packagist.org/packages/medcore-ua/nk-026-2021-parser)
 
 A PHP library to parse the NK-026-2021 (Classifier of Medical Interventions) from [meddata.pp.ua](https://meddata.pp.ua/data/classifications/nk-026-2021.json).
 
