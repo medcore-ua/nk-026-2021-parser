@@ -16,5 +16,8 @@
         "psr-4": {
             "MedCore\\Nk0262021Parser\\": "src/"
         }
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.95"
     }
 }
