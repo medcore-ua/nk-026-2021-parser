@@ -122,15 +122,15 @@ foreach ($localization as $intervention) {
 
 Each `Intervention` object contains:
 
-- `class_code` — Class code (e.g., "Клас 1")
-- `class_name` — Class name (e.g., "ПРОЦЕДУРИ НА НЕРВОВІЙ СИСТЕМІ")
-- `anatomical_site_code` — Anatomical site code (integer)
-- `anatomical_site_name` — Anatomical site name
-- `procedure_type_code` — Procedure type code (integer)
-- `procedure_type_name` — Procedure type name
-- `procedure_group_code` — Procedure group code (integer)
-- `procedure_group_name` — Procedure group name
-- `code` — Intervention code (e.g., "40803-00")
+- `class_code` — class code (e.g., "Клас 1")
+- `class_name` — class name (e.g., "ПРОЦЕДУРИ НА НЕРВОВІЙ СИСТЕМІ")
+- `anatomical_site_code` — anatomical site code (integer)
+- `anatomical_site_name` — anatomical site name
+- `procedure_type_code` — procedure type code (integer)
+- `procedure_type_name` — procedure type name
+- `procedure_group_code` — procedure group code (integer)
+- `procedure_group_name` — procedure group name
+- `code` — intervention code (e.g., "40803-00")
 - `name_ua` — Ukrainian name
 - `name_en` — English name
 
