@@ -15,9 +15,9 @@ class Parser
      * Fetches and parses the NK-026-2021 data.
      *
      * @return InterventionCollection The parsed data as a collection of Intervention objects.
-     * @throws \Exception If the data cannot be fetched or parsed.
+     * @throws \Exception             If the data cannot be fetched or parsed.
      */
-    public function parse(): InterventionCollection
+    public function parse() : InterventionCollection
     {
         if ($this->collection) {
             return $this->collection;
@@ -25,13 +25,13 @@ class Parser
 
         $json = @file_get_contents(self::DATA_URL);
 
-        if ($json === false) {
+        if (false === $json) {
             throw new \Exception("Failed to fetch data from " . self::DATA_URL);
         }
 
         $data = json_decode($json, true);
 
-        if (json_last_error() !== JSON_ERROR_NONE) {
+        if (JSON_ERROR_NONE !== json_last_error()) {
             throw new \Exception("Failed to parse JSON: " . json_last_error_msg());
         }
 
@@ -56,32 +56,32 @@ class Parser
         return $this->collection;
     }
 
-    public function findByCode(string $code): ?Intervention
+    public function findByCode(string $code) : ?Intervention
     {
         return $this->parse()->findByCode($code);
     }
 
-    public function findByClassName(string $class_name): InterventionCollection
+    public function findByClassName(string $class_name) : InterventionCollection
     {
         return $this->parse()->findByClassName($class_name);
     }
 
-    public function findByAnatomicalSite(string $anatomical_site): InterventionCollection
+    public function findByAnatomicalSite(string $anatomical_site) : InterventionCollection
     {
         return $this->parse()->findByAnatomicalSite($anatomical_site);
     }
 
-    public function findByProcedureType(string $procedure_type): InterventionCollection
+    public function findByProcedureType(string $procedure_type) : InterventionCollection
     {
         return $this->parse()->findByProcedureType($procedure_type);
     }
 
-    public function findByProcedureGroup(string $procedure_group): InterventionCollection
+    public function findByProcedureGroup(string $procedure_group) : InterventionCollection
     {
         return $this->parse()->findByProcedureGroup($procedure_group);
     }
 
-    public function searchByName(string $query): InterventionCollection
+    public function searchByName(string $query) : InterventionCollection
     {
         return $this->parse()->searchByName($query);
     }

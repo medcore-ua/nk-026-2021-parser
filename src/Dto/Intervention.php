@@ -16,6 +16,5 @@ class Intervention
         public readonly string $code,
         public readonly string $name_ua,
         public readonly string $name_en,
-    ) {
-    }
+    ) {}
 }
